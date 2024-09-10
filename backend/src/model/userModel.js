@@ -26,19 +26,6 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: false
   },
-  is_deleted: {
-    type: Boolean,
-    default: false,
-    required: false
-  },
-  reset_password_token: {
-    type: String,
-    required: false
-  },
-  reset_password_expires: {
-    type: Date,
-    required: false
-  },
   createdAt: {
     type: Date,
     default: Date.now,

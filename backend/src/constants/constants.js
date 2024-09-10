@@ -50,6 +50,8 @@ const ERRORS = {
 
 const MESSAGES = {
   EMAIL_ALREADY_EXIST: "Email is already in use",
+  DATABASE_CONNECTED: "Database connection was established",
+  DATABASE_CONNECTION_ERROR: "Failed to connect to database",
   PASSWORD_WRONG: "Your current password is wrong",
   NEW_PASSWORD_SAME_AS_OLD: "Your current password and new password are the same, please change new password",
   INCORRECT_CREDENTIALS: "Incorrect credentials",
